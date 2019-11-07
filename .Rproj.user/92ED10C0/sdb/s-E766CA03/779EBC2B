@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: Kakutani\nType: Package\nTitle: extremely practical functions to celebrate Prof.Kakutani's 60th birthday\nVersion: 0.1.0\nAuthor: Satoyo Oya\nMaintainer: Satoyo Oya, if she is very bored. contact <o.satoyo@nig.ac.jp>\nDescription: \n    this package includes:\n      palette_Kakutani; returns a colour palette based on Prof.Kakutani's clothing.\n      plot_Kakutani; grace your plot pane with abstracted impression of Prof.Kakutani.\n      plot_full_Kakutani; grace your plot pane with abstracted impression of Prof.Kakutani, ver2.\n      random_Kakutani; generates random list of 1,2,5 or of transposone AGI (e.g. AT1TE00010) of desired length.\n      grasp_Kakutani; from a gene AGI (e.g. AT1G01010) list given, generates multiple plots to help you grasp some characters of the genes. \nLicense:license limited for celebraters\nEncoding: UTF-8\nLazyData: true\nImports:MASS\n",
+    "created" : 1573094803045.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "50294160",
+    "id" : "779EBC2B",
+    "lastKnownWriteTime" : 1573094910,
+    "last_content_update" : 1573094910058,
+    "path" : "~/Desktop/Kakutani/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

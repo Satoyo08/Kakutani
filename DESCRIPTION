@@ -1,0 +1,17 @@
+Package: Kakutani
+Type: Package
+Title: extremely practical functions to celebrate Prof.Kakutani's 60th birthday
+Version: 0.1.0
+Author: Satoyo Oya
+Maintainer: Satoyo Oya, if she is very bored. contact <o.satoyo@nig.ac.jp>
+Description: 
+    this package includes:
+      palette_Kakutani; returns a colour palette based on Prof.Kakutani's clothing.
+      plot_Kakutani; grace your plot pane with abstracted impression of Prof.Kakutani.
+      plot_full_Kakutani; grace your plot pane with abstracted impression of Prof.Kakutani, ver2.
+      random_Kakutani; generates random list of 1,2,5 or of transposone AGI (e.g. AT1TE00010) of desired length.
+      grasp_Kakutani; from a gene AGI (e.g. AT1G01010) list given, generates multiple plots to help you grasp some characters of the genes. 
+License:license limited for celebraters
+Encoding: UTF-8
+LazyData: true
+Imports:MASS
