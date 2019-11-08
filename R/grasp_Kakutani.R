@@ -20,8 +20,7 @@ grasp_Kakutani<-function(gene_list){
     PC$V8,GOI$V8, col=c("gray","orange2"),border=rgb(0,0,0,1),cex.axis=1,cex.main=1,main="",cex.names=1,cex=0.05,lwd=1,notch=TRUE,outline=F)
   legend("topleft",legend=c("all_protein_coding","the list"),fill=c("gray","orange2"),cex=1,box.col = 0,title="length(bp)")
   #Exp box
-  load("data/Exp_seedling_Col.RData")
-  boxplot(
+    boxplot(
     E[,2],E[E$ID %in% gene_list,2], col=c("gray","orange2"),border=rgb(0,0,0,1),cex.axis=1,cex.main=1,main="",cex.names=1,cex=0.05,lwd=1,notch=TRUE,outline=F)
   legend("topleft",legend=c("all_protein_coding","the list"),fill=c("gray","orange2"),cex=1,box.col = 0,title="Exp(RPKM)")
 
