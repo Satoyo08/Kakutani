@@ -24,4 +24,4 @@ grasp_Kakutani(test_list)   #与えられた遺伝子リストの特徴をまと
 random_Kakutani(100)        #TEのIDをランダムに100個抽出   
 random_Kakutani(100,types="sons") #1,2,5からなる乱数を100個生成   
 plot_Kakutani() #CACTANを召喚(ちょっと時間がかかります)   
-plot_full_Kakutani() #漫画風の全身像を召喚(比較的すぐ来てくれます)   
+plot_full_Kakutani() #漫画風の全身像を召喚  
