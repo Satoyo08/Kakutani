@@ -1,4 +1,4 @@
-load("data/full_kakutani.Rdata")
+#load("data/full.Rdata")
 plot_full_Kakutani<-function(){
   par(mar=c(0,0,0,0))
   x<-full

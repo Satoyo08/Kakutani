@@ -1,5 +1,5 @@
-load("data/kakutan_magnet.RData")
-load("data/kakutan-scaled.Rdata")
+#load("data/kakutan_magnet.RData")
+#load("data/kakutan-scaled.Rdata")
 plot_Kakutani<-function(){
   par(mar=c(0,0,0,0))
 
