@@ -4,7 +4,7 @@
 
 ### インストール install
 ##### 依存性パッケージを読み込む　load required packages    
-Rを開いて,
+Rを開いて,   
 install.packages("devtools")   
 install.packages("MASS")   
 library("devtools")   
