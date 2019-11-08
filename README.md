@@ -1,6 +1,7 @@
 # library(Kakutani)
 
-還暦おめでとうございます。
+角谷先生の還暦を祝した最高に使いやすい関数群.   
+Extremely useful functions to celebrate Prof.Kakutani's 60th birthday.  
 
 ### インストール install
 ##### 依存性パッケージを読み込む　load required packages    
