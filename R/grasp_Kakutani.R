@@ -1,13 +1,13 @@
 load("data/test_list.Rdata")
+load("data/Araport11_all_sorted.RData") #V6; 1=pc,2=pseudo,3=TEgene,4=noncoding,5=noveltranscrived
+load("data/chrom_length.RData")
 
 grasp_Kakutani<-function(gene_list){
   mat <- matrix(c(1,2,4,1,2,5,3,3,3), 3, 3, byrow = TRUE);mat
   layout(mat)
-  load("data/Araport11_all_sorted.RData") #V6; 1=pc,2=pseudo,3=TEgene,4=noncoding,5=noveltranscrived
   colnames(arapo)<-c("Chr","st","en","ID","d","type","V7")
   arapo$Chr <- lapply(arapo$Chr, gsub, pattern="M", replacement = 6) ;arapo$Chr <- lapply(arapo$Chr, gsub, pattern="C", replacement = 7) ;arapo$Chr<-as.numeric(unlist(arapo$Chr))
   arapo[,ncol(arapo)+1]<-abs(arapo$en-arapo$st) # length をV8行に
-  load("data/chrom_length.RData")
   clensum<-c(0,0);for(i in 1:nrow(CL)){clensum[i+1]<-clensum[i]+as.numeric(CL[i,2])}
   arapo[,ncol(arapo)+1]<-mapply(function(x,y){clensum[x]+y},arapo$Chr,arapo$st) # distribution 用遺伝子座標
   #set gene lists

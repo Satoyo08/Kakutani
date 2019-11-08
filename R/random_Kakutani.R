@@ -1,6 +1,7 @@
+load("data/TE_list.Rdata")
+
 random_Kakutani<-function(sample_num,types='TE'){
   if(types=='TE'){
-    load("data/TE_list.Rdata")
     A<-TE_list
     sampled<-sample(length(A),sample_num,replace=FALSE)
   }
