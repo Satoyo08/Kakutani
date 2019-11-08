@@ -1,4 +1,4 @@
-load("data/TE_list.Rdata")
+#load("data/TE_list.Rdata")
 
 random_Kakutani<-function(sample_num,types='TE'){
   if(types=='TE'){

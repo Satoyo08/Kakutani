@@ -1,6 +1,6 @@
-load("data/test_list.Rdata")
-load("data/Araport11_all_sorted.RData") #V6; 1=pc,2=pseudo,3=TEgene,4=noncoding,5=noveltranscrived
-load("data/chrom_length.RData")
+#load("data/test_list.Rdata")
+#load("data/Araport11_all_sorted.RData") #V6; 1=pc,2=pseudo,3=TEgene,4=noncoding,5=noveltranscrived
+#load("data/chrom_length.RData")
 
 grasp_Kakutani<-function(gene_list){
   mat <- matrix(c(1,2,4,1,2,5,3,3,3), 3, 3, byrow = TRUE);mat
